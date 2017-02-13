@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1049415044478",
+    "firebase_url": "https://apogee2017-6c520.firebaseio.com",
+    "project_id": "apogee2017-6c520",
+    "storage_bucket": "apogee2017-6c520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049415044478:android:221f1d2d261687dc",
+        "android_client_info": {
+          "package_name": "bitspilani.dvm.apogee2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049415044478-18hebq44j5p22ikl0r2namd0b8pspjik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bitspilani.dvm.apogee2016",
+            "certificate_hash": "0DF6A4F92A785B928013963953ED4256ECD3C3E6"
+          }
+        },
+        {
+          "client_id": "1049415044478-kpk0rta36k55vs9irlka85cpi3htgkn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bitspilani.dvm.apogee2016",
+            "certificate_hash": "C1AD29D9D5BA43B0421FCDB2C3F1D64830EB9BF2"
+          }
+        },
+        {
+          "client_id": "1049415044478-8ugfccbknh4jjgt7iqrn0njqi3nq9mbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqkoRDflwn5yQtKYhfpiE5nQVP0nH_PQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049415044478-8ugfccbknh4jjgt7iqrn0njqi3nq9mbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049415044478:android:be7f0f5de32b89fe",
+        "android_client_info": {
+          "package_name": "bitspilani.dvm.apogee2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049415044478-m7953j47ghr7k8hr225pqdh21r3dvp6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bitspilani.dvm.apogee2017",
+            "certificate_hash": "0DF6A4F92A785B928013963953ED4256ECD3C3E6"
+          }
+        },
+        {
+          "client_id": "1049415044478-8ugfccbknh4jjgt7iqrn0njqi3nq9mbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqkoRDflwn5yQtKYhfpiE5nQVP0nH_PQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049415044478-8ugfccbknh4jjgt7iqrn0njqi3nq9mbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

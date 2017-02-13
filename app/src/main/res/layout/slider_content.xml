@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/slider_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bitspilani.dvm.apogee2017.ThinkAgain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/slider_pic"
+            android:padding="2dp"
+            android:alpha="0.8"
+            android:scaleType="centerInside"
+            android:src="@drawable/stallman"
+            android:background="@drawable/round_button"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:alpha="0.87"
+            android:id="@+id/slider_name"
+            android:textSize="22dp"
+            android:text="Dr. Richard Stallman"
+            android:textColor="@color/white"
+            android:layout_below="@+id/slider_pic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.54"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            android:id="@+id/slider_work"
+            android:textColor="@color/white"
+            android:layout_below="@+id/slider_name"
+            android:text="Father of the Free Software Movement"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slider_work"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:id="@+id/slider_description"
+            android:alpha="0.70"
+            android:text="@string/stallman_description"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

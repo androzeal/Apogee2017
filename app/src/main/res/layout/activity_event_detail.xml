@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background"
+    tools:context="bitspilani.dvm.apogee2017.EventDetail">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/background2"
+        android:alpha="0.3"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+
+                <bitspilani.dvm.apogee2017.CustomFont
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="34dp"
+                    android:alpha="0.88"
+                    android:gravity="left"
+                    android:text="FashP"
+                    android:textColor="@color/white"
+                    android:id="@+id/eventName"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    />
+                <bitspilani.dvm.apogee2017.CustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:alpha="0.54"
+                    android:textColor="@color/white"
+                    android:text="29th Oct 8:00 P.M. "
+                    android:id="@+id/eventTime"
+                    android:layout_above="@+id/eventDetails"
+                    android:layout_alignLeft="@+id/eventName"
+                    android:layout_alignStart="@+id/eventName"
+                    />
+                <bitspilani.dvm.apogee2017.CustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:text="FD-II 2103 "
+                    android:textColor="@color/white"
+                    android:id="@+id/eventLocation"
+                    android:layout_alignTop="@+id/eventTime"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_above="@+id/eventDetails"
+                    android:alpha="0.54"/>
+
+                <bitspilani.dvm.apogee2017.CustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventName"
+                    android:textSize="23dp"
+                    android:alpha="0.6"
+                    android:textColor="@color/white"
+                    android:id="@+id/eventDetails"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/stallman_description"/>
+            </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

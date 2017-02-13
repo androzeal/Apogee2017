@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/app_bar_home"
+    android:background="@color/splash_background"
+    tools:context="bitspilani.dvm.apogee2017.Home">
+
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="fill_parent"
+    android:src="@drawable/background2"
+    android:alpha="0.3"
+    android:layout_centerHorizontal="true"
+    android:scaleType="fitCenter" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flContent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+</RelativeLayout>
+
+    <com.wunderlist.slidinglayer.SlidingLayer
+        xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/slidingLayer2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        slidingLayer:stickTo="right"
+        slidingLayer:shadowSize="@dimen/shadow_size"
+        slidingLayer:changeStateOnTap="true"
+        slidingLayer:shadowDrawable="@drawable/sidebar_shadow"
+        android:elevation="8dp">
+
+        <include layout="@layout/slider_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" ></include>
+
+    </com.wunderlist.slidinglayer.SlidingLayer>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="8dp"
+    android:padding="4dp"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:id="@+id/category_icon"
+        android:scaleType="centerCrop"
+        android:alpha="0.8"
+        android:layout_gravity="center_horizontal"
+       android:src="@drawable/build_design"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/category_name"
+        android:alpha="0.6"
+        android:elevation="1dp"
+        android:id="@+id/category_shade"
+        android:src="@color/black"
+        android:layout_alignTop="@+id/category_name"
+        />
+    <bitspilani.dvm.apogee2017.CustomFont
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_name"
+        android:padding="4dp"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:elevation="4dp"
+        android:alpha="0.6"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignBottom="@+id/category_icon"
+        android:text="Miscellaneous"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Apogee 2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="parse_app_id">JR5G8AbM5SN3LGgRTsYCba0yrop8PmGhQWKo8qCM</string>
+    <string name="parse_client_key">rLsIab9y1PocUO5T54hETmO0FcpXSdJGA46ayB67</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about_text">In the heart of Pilani lies a fest that pushes the boundaries of student performance and creativity every year. From presenting papers and projects, to bringing into reality imaginative designs that the student mind conjures up, to the events that enthrall everyone who attends, APOGEE, BITS Pilani\'s technical fest, has always brought together the brightest minds in technology and engineering over the years, and this year, it promises to be bigger than ever.\n\n
+
+Ever dreamed about establishing civilization in Mars? Ever imagined building exciting vehicles and robots with your own hands? Ever wanted to challenge your mind with mind-bending quizzes, word games, and programming challenges? In the final days of February, APOGEE 2016 returns, with a plethora of classics, and many innovative new events.\n\n
+
+From the town of Pilani, BITS Pilani welcomes you to APOGEE 2016.\n\n\n
+
+The Future is Now !</string>
+
+
+    <string name="stallman_description">Dr. Richard Stallman launched the free software movement in 1983 and started the development of the GNU operating system in 1984 (which eventually helped develop Linux), and has been instrumental in the development of the GNU Project and the Free Software Foundation ever since. Richard developed a number of widely used programs that are components of GNU, including the original Emacs, the GNU Compiler Collection, the GNU symbolic debugger (gdb), GNU Emacs, and various others. He has been one of the most vociferous advocates of free software in his fight against software patents and dangerous extensions of copyright law.\n\n
+
+The remarkable work undertaken by Dr. Stallman has been recognized worldwide and has led to him being awarded the ACM Grace Hopper Award, a MacArthur Foundation fellowship, the Electronic Frontier Foundation\'s Pioneer Award, and the the Takeda Award for Social/Economic Betterment, as well as several doctorates honoris causa.\n\n\n\n
+
+Dr. Stallman will speak at the Think Again Conclave on 26th February about the burning issue of Net Neutrality vs Free Basics and why it is important to take the right side.</string>
+
+
+
+    <string name="startup_weekend_description">Startup Weekend is a global grassroots movement of active and empowered entrepreneurs driven by the idea of starting up, that connects them to the right people and resources over the weekend. It is the largest community of passionate entrepreneurs with over 3000 past events in 150 countries around the world.\n\n
+
+The goal of Startup Weekend is to provide the time, space, knowledge, and resources to help potential entrepreneurs gain the experience they need to start successful ventures. At a Startup Weekend, one gets a 54 hour frenzy of business model creation, coding, designing, and market validation. Coming in alone with an idea on Friday night and leaving on Sunday evening with a startup company, and a bag full of new network contacts is a unique experience only found at a Startup Weekend.\n\n\n
+
+Startup Weekend follows a basic model: anyone is welcome to pitch their startup idea and receive feedback from their peers and then exchange of ideas takes place over 54 hours. The weekends culminate with presentations in front of local entrepreneurial leaders who then provide critical appraisal and feedback.\n\n
+
+</string>
+
+</resources>

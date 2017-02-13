@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/events"
+            android:title="Events" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/think_again"
+            android:icon="@drawable/think_again_icon"
+            android:title="Think Again" />
+
+        <item
+            android:id="@+id/startup_weekend"
+            android:icon="@drawable/startup"
+            android:title="Startup Weekend" />
+
+        <item
+            android:id="@+id/literary_fest"
+            android:icon="@drawable/literature"
+            android:title="Literary Fest" />
+
+        <item
+            android:id="@+id/workshops"
+            android:icon="@drawable/workshops_icon"
+            android:title="Workshops" />
+
+        <item
+            android:id="@+id/exhibitions"
+            android:icon="@drawable/exhibitions_icon"
+            android:title="Exhibitions" />
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/map"
+            android:title="Map" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_bottom">
+
+            <item
+                android:id="@+id/sponsors"
+                android:icon="@drawable/sponsors"
+                android:title="Sponsors" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/contact_us"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/developers"
+                android:icon="@drawable/developers"
+                android:title="Developers-DVM" />
+
+    </group>
+
+</menu>

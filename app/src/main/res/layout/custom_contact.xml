@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="4dp"
+            android:alpha="0.6"
+            android:id="@+id/contact_pic"
+            android:src="@drawable/nitish"
+            android:background="@drawable/round_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+    <bitspilani.dvm.apogee2017.CustomFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:alpha="0.87"
+        android:layout_toRightOf="@+id/contact_pic"
+        android:text="Sports Secretary  "
+        android:id="@+id/contact_head"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp" />
+
+    <bitspilani.dvm.apogee2017.CustomFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/contact_head"
+        android:alpha="0.64"
+        android:layout_toRightOf="@+id/contact_pic"
+        android:text="NITISH KUNDALA "
+        android:id="@+id/contact_name"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
