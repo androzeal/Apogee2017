@@ -48,7 +48,7 @@
             android:theme="@style/CustomActionBarTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="bitspilani.dvm.apogee2016.Home" />
+                android:value="bitspilani.dvm.apogee2017.Home" />
         </activity>
 
         <activity

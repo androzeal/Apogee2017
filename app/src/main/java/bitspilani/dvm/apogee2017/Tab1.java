@@ -93,8 +93,10 @@ public class Tab1 extends android.support.v4.app.Fragment {
                     Log.d("Neo", "No Data Received1");
 
                 } else {
-                    ListAdapter custom = new CustomList(getActivity(), name, location, time);
-                    tabList.setAdapter(custom);
+                    if(getActivity() != null){
+                        ListAdapter custom = new CustomList(getActivity(), name, location, time);
+                        tabList.setAdapter(custom);
+                    }
                 }
 
 
